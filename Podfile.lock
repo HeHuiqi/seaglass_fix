@@ -1,0 +1,80 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - Down (0.11.0)
+  - GZIP (1.2.3)
+  - LetsMove (1.25)
+  - OLMKit (2.2.2):
+    - OLMKit/olmc (= 2.2.2)
+    - OLMKit/olmcpp (= 2.2.2)
+  - OLMKit/olmc (2.2.2)
+  - OLMKit/olmcpp (2.2.2)
+  - Realm (3.6.0):
+    - Realm/Headers (= 3.6.0)
+  - Realm/Headers (3.6.0)
+  - Sparkle (2.6.4)
+  - SwiftMatrixSDK (0.10.12):
+    - AFNetworking (~> 3.2.0)
+    - GZIP (~> 1.2.1)
+    - OLMKit (~> 2.2.2)
+    - Realm (~> 3.6.0)
+  - TSMarkdownParser (2.1.5)
+
+DEPENDENCIES:
+  - Down
+  - LetsMove
+  - OLMKit (from `https://gitlab.matrix.org/matrix-org/olm.git`, tag `2.2.2`)
+  - Sparkle
+  - SwiftMatrixSDK (from `https://github.com/HeHuiqi/MatrixSDK_0.10.12.git`)
+  - TSMarkdownParser
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Down
+    - GZIP
+    - LetsMove
+    - Realm
+    - Sparkle
+    - TSMarkdownParser
+
+EXTERNAL SOURCES:
+  OLMKit:
+    :git: https://gitlab.matrix.org/matrix-org/olm.git
+    :tag: 2.2.2
+  SwiftMatrixSDK:
+    :git: https://github.com/HeHuiqi/MatrixSDK_0.10.12.git
+
+CHECKOUT OPTIONS:
+  OLMKit:
+    :git: https://gitlab.matrix.org/matrix-org/olm.git
+    :tag: 2.2.2
+  SwiftMatrixSDK:
+    :commit: a657ea1c3a8b913a04f7021c5aa5ad129bddbd4b
+    :git: https://github.com/HeHuiqi/MatrixSDK_0.10.12.git
+
+SPEC CHECKSUMS:
+  AFNetworking: cb604b1c2bded0871f5f61f5d53653739e841d6b
+  Down: b6ba1bc985c9d2f4e15e3b293d2207766fa12612
+  GZIP: af5c90ef903776a7e9afe6ebebd794a84a2929d4
+  LetsMove: 7b9fe44737707d984fbd3f47af46609a9a07b461
+  OLMKit: 15dd91a52e0cf845edf45f09e1a05a61018e096d
+  Realm: 08b464b462d4f31bbd4ba5f5a1c8722ef0a700b7
+  Sparkle: 5f8960a7a119aa7d45dacc0d5837017170bc5675
+  SwiftMatrixSDK: 793d7505afe6cb8aa563c2c4c94613ef279bca87
+  TSMarkdownParser: 3224ea196ecc7148fa7e03bc438f9390d4edfb6d
+
+PODFILE CHECKSUM: b79efff8c234b2f7eadcc9557b62a41b402ac200
+
+COCOAPODS: 1.15.2
